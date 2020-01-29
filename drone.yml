@@ -1,7 +1,0 @@
-kind: pipeline
-name: default
-steps:
-  - name: hello
-    image: alpine
-    commands:
-      - echo Hello World!
