@@ -1,8 +1,15 @@
-name: Test3
+---
+kind: pipeline
+type: docker
+name: linux-amd64
 
+platform:
+  arch: amd64
+  os: linux
+  
+name: Test4
 on:
   push
-
 jobs:
   build:
     runs-on: ubuntu-latest
