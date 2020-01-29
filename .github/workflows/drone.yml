@@ -1,0 +1,5 @@
+- name: Drone Install Action
+  uses: chrislennon/action-drone@v1
+  with:
+    # Version to install
+    version: # optional
