@@ -12,5 +12,5 @@ jobs:
           version: '0.8.1'
       - run: drone info
         env:
-          DRONE_SERVER: https://cloud.drone.io/
+          DRONE_SERVER: https://cloud.drone.io/cbailoni/DevOps-Avionics
           DRONE_TOKEN: u4IACZdDv8cTLGIpI57Ot35sFm1RjGIN
