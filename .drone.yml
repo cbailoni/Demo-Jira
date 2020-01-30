@@ -13,7 +13,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
+    steps:
 notify:
 
     image: drillster/drone-email
