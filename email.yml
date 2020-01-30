@@ -7,5 +7,4 @@ notify:
     password: Bromelia7917
     from: caio.bailoni@gmail.com
 +   recipients: [ cbailoni@collab.net, caio.bailoni@hotmail.com ]
-    when:
-      status: [ changed, failure ]
+    
