@@ -7,14 +7,27 @@ platform:
   arch: amd64
   os: linux
   
-name: Test6.1
+name: Test
 on:
   push
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: chrislennon/action-drone@v1
+
+notify:
+
+    image: drillster/drone-email
+    host: smtp.google.com
+    username: caio.bailoni@gmail.com
+    password: Bromelia7917
+    from: caio.bailoni@gmail.com
++   recipients: [ cbailoni@collab.net, caio.bailoni@hotmail.com ]
+    when:
+      status: [ changed, failure ]
+    
+steps:
+     
+ - uses: chrislennon/action-drone@v1
         with:
           version: '0.8.1'
       - run: drone info
