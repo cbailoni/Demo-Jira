@@ -5,8 +5,7 @@ name: linux-amd64
 
 platform:
   arch: amd64
-  os: linux
-  
+  os: linux  
 name: Test
 on:
   push
