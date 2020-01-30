@@ -1,6 +1,6 @@
 --
 kind: pipeline
-type: notify
+notify:
     image: drillster/drone-email
     host: smtp.gmail.com
     username: caio.bailoni@gmail.com
