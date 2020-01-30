@@ -1,0 +1,11 @@
+--
+kind: pipeline
+type: notify
+    image: drillster/drone-email
+    host: smtp.gmail.com
+    username: caio.bailoni@gmail.com
+    password: Bromelia7917
+    from: drone@your-domain.com
++   recipients: [ cbailoni@collab.net ]
+    when:
+      status: [ changed, failure ]
