@@ -13,19 +13,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    steps:
-notify:
-
-    image: drillster/drone-email
-    host: smtp.google.com
-    username: caio.bailoni@gmail.com
-    password: Bromelia7917
-    from: cbailoni@cloud.drone.io
-+   recipients: [ cbailoni@collab.net, caio.bailoni@hotmail.com ]
-    when:
-      status: [ changed, failure ]
-    
 steps:
      
  - uses: chrislennon/action-drone@v1
