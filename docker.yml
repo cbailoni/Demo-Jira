@@ -5,7 +5,7 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    username: kevinbacon
-    password: pa55word
+    username: cbailoni
+    password: zaRquj-jagjo4-wukvid
     repo: foo/bar
     tags: latest
