@@ -21,7 +21,7 @@ notify:
     host: smtp.google.com
     username: caio.bailoni@gmail.com
     password: Bromelia7917
-    from: caio.bailoni@gmail.com
+    from: cbailoni@cloud.drone.io
 +   recipients: [ cbailoni@collab.net, caio.bailoni@hotmail.com ]
     when:
       status: [ changed, failure ]
