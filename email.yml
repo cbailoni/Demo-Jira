@@ -5,7 +5,7 @@ type: notify
     host: smtp.gmail.com
     username: caio.bailoni@gmail.com
     password: Bromelia7917
-    from: drone@your-domain.com
+    from: caio.bailoni@gmail.com
 +   recipients: [ cbailoni@collab.net ]
     when:
       status: [ changed, failure ]
