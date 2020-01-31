@@ -1,0 +1,23 @@
+---
+kind: pipeline
+type: docker
+name: linux-amd64
+
+platform:
+  arch: amd64
+  os: linux
+  
+name: Deploy_Build
+on:
+  push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: chrislennon/action-drone@v1
+        with:
+          version: '0.8.1'
+      - run: drone info
+        env:
+          DRONE_SERVER: https://cloud.drone.io/cbailoni/DevOps-Avionics
+          DRONE_TOKEN: u4IACZdDv8cTLGIpI57Ot35sFm1RjGIN
