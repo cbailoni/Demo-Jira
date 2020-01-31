@@ -7,7 +7,7 @@ platform:
   arch: amd64
   os: linux
   
-name: Test34
+name: Test40
 on:
   push
 jobs:
