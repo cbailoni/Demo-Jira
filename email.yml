@@ -5,6 +5,6 @@ notify:
     host: smtp.gmail.com
     username: caio.bailoni@gmail.com
     password: Cartepilar
-    from: caio.bailoni@gmail.com
+    from: caio.bailoi@gmail.com
 +   recipients: [ cbailoni@collab.net ]
     
