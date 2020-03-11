@@ -4,7 +4,7 @@ notify:
     image: drillster/drone-email
     host: smtp.gmail.com
     username: caio.bailoni@gmail.com
-    password: Bromelia7917
+    password: Cartepilar
     from: caio.bailoni@gmail.com
 +   recipients: [ cbailoni@collab.net ]
     
