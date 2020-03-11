@@ -1,0 +1,8 @@
+--
+kind: pipeline
+notify:
+    image: drillster/drone-email
+    host: smtp.gmail.com
+    username: caio.bailoni@gmail.com
+    password: Cartepilar3
+    from: caio.bailoi@gmail.com
