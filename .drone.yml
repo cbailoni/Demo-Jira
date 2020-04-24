@@ -6,8 +6,8 @@ name: linux-amd64
 platform:
   arch: amd64
   os: linux
-  
-name: Test42
+
+name: Test43
 on:
   push
 jobs:
